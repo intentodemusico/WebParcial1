@@ -5,8 +5,9 @@ import { TopicList } from './views/TopicList';
 import { NoMatch } from './views/NoMatch';
 import { TopicDetail } from './components/TopicDetail';
 import { NavBar } from './components/NavBar';
+import { Integrantes } from './components/Integrantes';
+import { Vidios } from './components/Vidios';
 import { Route, Switch, Redirect } from 'react-router-dom';
-
 
 export const Routes = () => {
   return (

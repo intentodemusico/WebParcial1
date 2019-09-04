@@ -1,9 +1,11 @@
 import React from 'react';
-
+import Integrantes from '../../components/Integrantes/Integrantes';
+import Vidios from '../../components/Vidios/Vidios';
 const About = props => {
   return (
     <div>
-      <h3>Cambiar esto tan feo</h3>
+      <Integrantes />
+      <Vidios />
     </div>
   );
 };
